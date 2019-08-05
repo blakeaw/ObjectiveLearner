@@ -73,8 +73,8 @@ def objective(theta):
 The ObjectiveLearner decorator saves the input parameter vectors and the corresponding objective values generated when the objective function is called during model calibrations and provides functions to post-analyze the values with linear regression (using tools from scikit-learn) and sensitivity analysis (using tools from SALib).
 
 Additionally, **ObjectiveLearner** provides two other decorator classes:
-    * CostCounter - simply keeps count of the number of calls to the objective function.
-    * CostSaver - In addition to keeping count of the number of calls to the objective function, it stores the parameter vectors and corresponding objective function values and provides functions to write the data to a file.
+  * ObjectiveCounter - simply keeps count of the number of calls to the objective function.
+  * ObjectiveSaver - In addition to keeping count of the number of calls to the objective function, it stores the parameter vectors and corresponding objective function values and provides functions to write the data to a file.
 
 ### Jupyter Notebooks
 Checkout the Jupyter Notebook:
