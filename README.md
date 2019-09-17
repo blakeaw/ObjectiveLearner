@@ -5,6 +5,7 @@
 [![license](https://img.shields.io/github/license/blakeaw/ObjectiveLearner.svg)](LICENSE)
 ![version](https://img.shields.io/badge/version-0.1.0-orange.svg)
 [![release](https://img.shields.io/github/release-pre/blakeaw/ObjectiveLearner.svg)](https://github.com/blakeaw/ObjectiveLearner/releases/tag/v0.1.0)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3408007.svg)](https://doi.org/10.5281/zenodo.3408007)
 
 **ObjectiveLearner** is a python module that provides functionality to run [Supervised Machine Learning](https://en.wikipedia.org/wiki/Machine_learning#Supervised_learning) (linear regression) and [Sensitivity Analysis](https://en.wikipedia.org/wiki/Sensitivity_analysis#Regression_analysis) on the objective function versus parameter relationship using the thousands (to millions) of (sometimes expensive) objective function evaluations performed during model calibration with packages like [PyDREAM](https://github.com/LoLab-VU/PyDREAM), [simplePSO](https://github.com/LoLab-VU/ParticleSwarmOptimization), [Gleipnir](https://github.com/LoLab-VU/Gleipnir), and [GAlibrate](https://github.com/blakeaw/GAlibrate).
 
@@ -77,7 +78,7 @@ Additionally, **ObjectiveLearner** provides two other decorator classes:
   * ObjectiveSaver - In addition to keeping count of the number of calls to the objective function, it stores the parameter vectors and corresponding objective function values and provides functions to write the data to a file.
 
 ### Jupyter Notebooks
-Checkout the Jupyter Notebook:
+Checkout the Jupyter IPython Notebook:
  1. [Basics of ObjectiveLearner](./jupyter_notebooks/Basics_of_ObjectiveLearner.ipynb)
 
 ------
@@ -90,8 +91,7 @@ To report problems or bugs, make comments, suggestions, or feature requests plea
 
 # Citing
 
-If you use the **ObjectiveLearner** software in your research, please cite the GitHub
-repository.
+If you use the **ObjectiveLearner** software in your research, please cite it. You can export the reference in your preferred format from its [Zenodo DOI](https://doi.org/10.5281/zenodo.3408006) entry.
 
 Also, please cite the following references as appropriate for software used with/via **ObjectiveLearner**:
 
